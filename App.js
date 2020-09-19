@@ -19,7 +19,7 @@ export default class App extends Component {
     );
 
     let loginUser = await axios
-      .get('https://projectmate.live/api/auth/employee', {
+      .get('<API>', {
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
